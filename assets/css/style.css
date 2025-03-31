@@ -19,6 +19,17 @@ h1, h2 {
     color: #184f63;
 } 
 
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+}
+
+/* About Section */
+#about {
+  background-color: white;
+}
+
+/* Portfolio Section */
 #portfolio {
   background-color: #dbdcde;
   font-size: 1.2rem;
@@ -36,10 +47,7 @@ h1, h2 {
   min-height: 120px;
 }
 
-#about {
-  background-color: white;
-}
-
+/* Contact Section */
 #contact {
   background-color: white;
 }
